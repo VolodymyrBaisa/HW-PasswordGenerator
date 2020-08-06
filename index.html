@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+      integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX"
+      crossorigin="anonymous"
+    />
+    <!-- Password Generator Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-container">
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light shadow p-3 mb-5">
+            <div class="container">
+                <a class="navbar-brand justify" href="#">Password Generator</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-md-auto">
+                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link" href="#">Utils</a>
+              </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Content -->
+    <main>
+        <div class="container">
+            <div class="card shadow">
+                <div class="card-body text-center">
+                    <div class="card-title">
+                <h3 class="main-header">Password Generator</h3>
+                <hr>
+                <div id="pgContainer">
+                    <div" id="passwordGenerator">Your Secure Password</div>
+                </div>
+                <hr>
+                <div class="btn btn-primary" id="btnPasswordGenerator">Generate Password</div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </main>
+    <!-- Notification -->
+    <div class="card shadow bg-dark notification-container" id="notificationContainer">
+        <div class="card-body">
+            <p class="card-text" id="notificationText"></p>
+        </div>
+    </div>
+    <!-- Footer -->
+        <footer class="page-footer font-small">
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2020 Copyright: Volodymyr Baisa
+            </div>
+    </footer>
+    </div>
+    <!-- Password Generator Scripts -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
