@@ -73,7 +73,7 @@ nav .nav-link.active {
 main #pgContainer {
     width: 70%;
     margin: auto;
-    min-height: 100px;
+    min-height: 20vh;
     line-height: 100px;
     border: 3px dotted;
     cursor: pointer;
