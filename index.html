@@ -57,6 +57,39 @@
             <p class="card-text" id="notificationText"></p>
         </div>
     </div>
+    <!-- Password Complexity Configuration -->
+    <div class="config-container">
+        <div class="config-card shadow">
+            <div class="config-card-container">
+                <h4 class="config-card-title">Password Complexity</h4>
+                <hr>
+                    <div>
+                        <input id="uppers" type="checkbox">
+                        <label>Uppercase</label>
+                    </div>
+                    <div>
+                        <input id="lowers" type="checkbox">
+                        <label>Lowercase</label>
+                    </div>
+                    <div>
+                        <input id="digits" type="checkbox">
+                        <label>Digits</label>
+                    </div>
+                    <div>
+                        <input id="specials" type="checkbox">
+                        <label>Specials</label>
+                    </div>
+                    <div>
+                        <label>Password length:</label>
+                        <br>
+                        <input id="numberLen" type="number" value="8" min="8" max="128">
+                        <label>characters</label>
+                    </div>
+                <hr>
+                <div id="finishBtn" class="btn btn-primary btn-sm">Finish</div> 
+            </div>
+        </div>
+    </div>
     <!-- Footer -->
         <footer class="page-footer font-small">
             <!-- Copyright -->
